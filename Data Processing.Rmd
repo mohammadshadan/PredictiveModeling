@@ -1,0 +1,23 @@
+---
+title: "Data Processing"
+author: "MOHAMMAD SHADAN"
+date: "January 26, 2017"
+output: html_document
+---
+
+The practice of predictive modeling defines the process of
+developing a model in a way that we can understand and quantify the model's
+prediction accuracy on future, yet-to-be-seen data.
+
+```{r}
+# install.packages("AppliedPredictiveModeling")
+library(AppliedPredictiveModeling)
+data(segmentationOriginal)
+head(segmentationOriginal)
+
+dim(segmentationOriginal)
+str(segmentationOriginal)
+names(segmentationOriginal)
+
+?readLines
+```
